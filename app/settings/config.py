@@ -10,7 +10,7 @@ SECRET_KEY = confsec.SECRET_KEY
 # 3rd party secure settings
 CORS_ORIGIN_WHITELIST = confsec.CORS_ORIGIN_WHITELIST
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.getcwd()
 
 INSTALLED_APPS = [
     'django.contrib.admin',
