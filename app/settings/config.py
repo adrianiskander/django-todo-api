@@ -10,6 +10,9 @@ SECRET_KEY = confsec.SECRET_KEY
 # 3rd party secure settings
 CORS_ORIGIN_WHITELIST = confsec.CORS_ORIGIN_WHITELIST
 
+# Custom settings
+CLIENT_URL = confsec.CLIENT_URL
+
 BASE_DIR = os.getcwd()
 
 INSTALLED_APPS = [
